@@ -269,4 +269,78 @@
     font-weight: 800;
 }
 
+/* Why Choose Us */
+#choose-us {
+    margin-top: 6.125rem;
+}
+
+#choose-us .choose-us-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#choose-us .choose-us-container .choose-us-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#choose-us .choose-us-container .choose-us-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+#choose-us .choose-us-container .choose-us-card .card-content {
+    flex-basis: 35.8125rem;
+    height: 17.75rem;
+    padding: 2rem;
+}
+
+#choose-us .choose-us-container .choose-us-card .card-content img {
+    width: 100%;
+    max-width: 4rem;
+}
+
+#choose-us .choose-us-container .choose-us-card .card-content .card-title {
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 2rem 0 1rem;
+}
+
+#choose-us .choose-us-container .choose-us-card .card-content .card-description {
+    color: #5A5A5D;
+    font-family: var(--primary-font);
+    font-size: var(--primary-size);
+    font-weight: 400;
+    line-height: 1.625rem;
+    width: 100%;
+    max-width: 30.375rem;
+}
+
+#choose-us .choose-us-container .choose-us-card #card-1 {
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+#choose-us .choose-us-container .choose-us-card #card-2 {
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+#choose-us .choose-us-container .choose-us-card #card-3 {
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+
 /* <!-- Footer Section  -->  */

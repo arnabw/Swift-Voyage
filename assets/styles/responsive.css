@@ -123,5 +123,34 @@
         font-size: 1.25rem;
     }
 
+/* Why Choose Us */
+    #choose-us {
+       margin-top: 1.5rem;
+    }
+    #choose-us .choose-us-container .choose-us-content {
+        margin-bottom: 1rem;
+    }
+    #choose-us .choose-us-container .choose-us-card {
+        gap: 1rem;
+    }
+    #choose-us .choose-us-container .choose-us-card .card-content {
+        flex-basis: 20.94rem;
+        height: 18.1rem;
+    }
+
+    #choose-us .choose-us-container .choose-us-card .card-content img {
+        max-width: 3rem;
+    }
+
+    #choose-us .choose-us-container .choose-us-card .card-content .card-title {
+        font-size: 1.25rem;
+        margin: 1rem 0;
+    }
+
+    #choose-us .choose-us-container .choose-us-card .card-content .card-description {
+        line-height: 1.5rem;
+        max-width: 16.94rem;
+    }
+
     /* <!-- Footer Section  -->  */
 }
