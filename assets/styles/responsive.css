@@ -1,0 +1,57 @@
+/* Small Device  */
+@media only screen and (max-width: 600px) {
+    :root {
+        /* Font Family  */
+        --primary-font: 'Mulish', sans-serif;
+        --secondary-font: 'Inter', sans-serif;
+
+        /* Color  */
+        --primary-color: #FF4A4A;
+        --secondary-color: #131318;
+        --optional-color: rgba(19, 19, 24, 0.70);
+
+        /* Size  */
+        --primary-size: 0.875rem;
+        --secondary-size: 1.25rem;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .shared-description {
+        line-height: 1.5rem;
+    }
+
+    /* <!-- Header Section  -->  */
+    #head {
+        padding: 1.25rem 0 1.5rem;
+    }
+
+    /* Nav Section  */
+    #head .nav .nav-name {
+        gap: 0.6rem;
+    }
+
+    #head .nav .nav-name img {
+        max-width: 1.80rem;
+    }
+
+    #head .nav .nav-name .nav-title {
+        font-size: 1.35rem;
+    }
+
+    #head .nav .nav-list ul {
+        display: none;
+    }
+
+    #head .nav .nav-list .hamburger {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    /* <!-- Main Section  -->  */
+
+    /* <!-- Footer Section  -->  */
+}
