@@ -171,7 +171,7 @@
     border-radius: 0.5rem;
 }
 
-#head .banner .banner-input .input-container #input-icon{
+#head .banner .banner-input .input-container #input-icon {
     position: absolute;
     bottom: 35%;
     right: 10%;
@@ -180,25 +180,93 @@
 }
 
 /* <!-- Main Section  -->  */
-#main{
+#main {
     padding-bottom: 6.125rem;
 }
+
 /* Our Popular Tours  */
-#main #popular-tours .popular-tours-container{
+#main #popular-tours .popular-tours-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#main #popular-tours .popular-tours-container .popular-tours-content ul li{
+#main #popular-tours .popular-tours-container .popular-tours-content ul li {
     margin-bottom: 1.5rem;
 }
 
-#main #popular-tours .popular-tours-container .popular-tours-img img{
+#main #popular-tours .popular-tours-container .popular-tours-img img {
     width: 100%;
     max-width: 33.75rem;
     border-radius: 1rem;
 }
 
+/* Choose Your Destination */
+#your-destination {
+    margin-top: 6.125rem;
+}
+
+#your-destination .your-destination-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#your-destination .your-destination-container .your-destination-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#your-destination .your-destination-container .your-destination-places {
+    display: grid;
+    gap: 1.5rem;
+}
+
+#your-destination .your-destination-container .your-destination-places .first-row-places {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+#your-destination .your-destination-container .your-destination-places .second-row-places {
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr 1fr;
+    gap: 1.5rem;
+}
+
+#your-destination .your-destination-container .your-destination-places .third-row-places {
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    gap: 1.5rem;
+}
+
+#your-destination .your-destination-container .your-destination-places .destination-places {
+    position: relative;
+}
+
+#your-destination .your-destination-container .your-destination-places .destination-places img {
+    width: 100%;
+    height: 18.75rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+#your-destination .your-destination-container .your-destination-places .destination-places h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: var(--primary-font);
+    font-size: 1.75rem;
+    font-weight: 800;
+}
 
 /* <!-- Footer Section  -->  */

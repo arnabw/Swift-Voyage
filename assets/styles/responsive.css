@@ -87,5 +87,41 @@
         max-width: 20.94rem;
     }
 
+    /* Choose Your Destination */
+    #your-destination {
+        margin-top: 1.5rem;
+    }
+
+    #your-destination .your-destination-container .your-destination-content {
+        margin-bottom: 1rem;
+    }
+
+    #your-destination .your-destination-container .your-destination-places {
+        gap: 1rem;
+    }
+
+    #your-destination .your-destination-container .your-destination-places .first-row-places {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    #your-destination .your-destination-container .your-destination-places .second-row-places {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    #your-destination .your-destination-container .your-destination-places .third-row-places {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    #your-destination .your-destination-container .your-destination-places .destination-places img {
+        height: 11rem;
+    }
+
+    #your-destination .your-destination-container .your-destination-places .destination-places h3 {
+        font-size: 1.25rem;
+    }
+
     /* <!-- Footer Section  -->  */
 }
