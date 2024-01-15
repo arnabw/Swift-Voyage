@@ -69,6 +69,23 @@
     }
 
     /* <!-- Main Section  -->  */
+    #main {
+        padding-bottom: 1.5rem;
+    }
+
+    /* Our Popular Tours  */
+    #main #popular-tours .popular-tours-container {
+        flex-direction: column;
+        gap: 2.30rem;
+    }
+
+    #main #popular-tours .popular-tours-container .popular-tours-content ul li {
+        margin-bottom: 0.75rem;
+    }
+
+    #main #popular-tours .popular-tours-container .popular-tours-img img {
+        max-width: 20.94rem;
+    }
 
     /* <!-- Footer Section  -->  */
 }

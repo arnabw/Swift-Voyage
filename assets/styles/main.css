@@ -180,5 +180,25 @@
 }
 
 /* <!-- Main Section  -->  */
+#main{
+    padding-bottom: 6.125rem;
+}
+/* Our Popular Tours  */
+#main #popular-tours .popular-tours-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main #popular-tours .popular-tours-container .popular-tours-content ul li{
+    margin-bottom: 1.5rem;
+}
+
+#main #popular-tours .popular-tours-container .popular-tours-img img{
+    width: 100%;
+    max-width: 33.75rem;
+    border-radius: 1rem;
+}
+
 
 /* <!-- Footer Section  -->  */
