@@ -15,12 +15,10 @@
         --secondary-size: 1.25rem;
     }
 
-    .container {
-        width: 95%;
-    }
-
     .shared-description {
         line-height: 1.5rem;
+        max-width: 19.32rem;
+        margin: 1rem 0;
     }
 
     /* <!-- Header Section  -->  */
@@ -49,6 +47,25 @@
         display: flex;
         justify-content: end;
         align-items: center;
+    }
+
+    /* Banner Section  */
+    #head .banner {
+        max-width: 20.94rem;
+        height: 30.2rem;
+        margin: 1.12rem auto 0;
+    }
+
+    #head .banner .banner-title {
+        font-size: 1.4rem;
+    }
+
+    #head .banner .banner-input {
+        flex-direction: column;
+    }
+
+    #head .banner .banner-input .input-container input[type="text"] {
+        max-width: 16rem;
     }
 
     /* <!-- Main Section  -->  */
