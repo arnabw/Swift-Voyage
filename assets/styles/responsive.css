@@ -263,4 +263,25 @@
     }
 
     /* <!-- Footer Section  -->  */
+    #foot {
+        padding: 1.5rem 0;
+    }
+    #foot .footer-container .footer-up {
+        padding-bottom: 1.5rem;
+    }
+    #foot .footer-container .footer-up .brand-name {
+        gap: 0.5rem;
+    }
+    #foot .footer-container .footer-up .brand-name img {
+        max-width: 1.32rem;
+    }
+    #foot .footer-container .footer-up .brand-name .brand-title {
+        font-size: 1.35rem;
+    }
+    #foot .footer-container .footer-up .footer-icon{
+        gap: 1rem;
+    }
+    #foot .footer-container .footer-up .footer-icon i{
+        font-size: 1.2rem;
+    }
 }
