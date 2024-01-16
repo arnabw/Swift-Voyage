@@ -155,6 +155,48 @@
         max-width: 16.94rem;
     }
 
+    /* Deals & Discounts Section  */
+    #deals-discounts {
+        margin-top: 1.5rem;
+    }
+    #deals-discounts .deals-discounts-container {
+        gap: 1rem;
+    }
+    #deals-discounts .deals-discounts-container .deals-discount-packages {
+        max-width: 20.94rem;
+        height: 31.25rem;
+        justify-content: end;
+    }
+    #deals-discounts .deals-discounts-container #position-start{
+        max-width: 20.94rem;
+        height: 31.25rem;
+    }
+    #deals-discounts .deals-discounts-container .deals-discount-packages .package-box {
+        max-width: 18rem;
+        height: 19rem;
+        padding: 1rem;
+        margin: 0.5rem auto;
+    }
+    .package-box .package-info {
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    .package-box .package-content .package-title {
+        font-size: 1rem;
+    }
+    .package-box .package-content .package-description {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        margin: 0.5rem 0;
+    }
+    .package-box .package-book .package-price {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+
+
+
     /* Client Review (Extra Section) */
     #client-review {
         margin-top: 1.5rem;
