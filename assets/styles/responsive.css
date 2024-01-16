@@ -193,6 +193,38 @@
         display: none;
      }
 
+     /* <!-- A Simple Perfect Place To Get Lost Section --> */
+     #simple-showcase {
+        margin-top: 1.5rem;
+    }
+    #simple-showcase .simple-showcase-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    #simple-showcase .simple-showcase-container .simple-showcase-content .simple-title {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        max-width: 15.5rem;
+    }
+    #simple-showcase .simple-showcase-container .simple-showcase-content .simple-description {
+        line-height: 1.5rem;
+        max-width: 20.94rem;
+        margin: 1rem 0;
+    }
+    #simple-showcase .simple-showcase-container .simple-showcase-content ul{
+        margin-left: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    #simple-showcase .simple-showcase-container .simple-showcase-content ul li {
+        line-height: 1.5rem;
+        max-width: 20.94rem;
+    }
+    #simple-showcase .simple-showcase-container .simple-showcase-video video{
+        max-width: 20.94rem;
+        height: 12.5rem;
+    }
+
+
 
 
 
