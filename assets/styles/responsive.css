@@ -1,3 +1,218 @@
+/* Medium Device */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+
+    /* Shared Styles */
+    :root {
+
+        /* Size  */
+        --primary-size: 0.9rem;
+        --secondary-size: 2rem;
+    }
+
+    .shared-description {
+        line-height: 1.6rem;
+        max-width: 35rem;
+        margin: 1.2rem 0;
+    }
+
+    .shared-button {
+        font-size: 1rem;
+        padding: 0.8rem 2rem;
+    }
+
+    /* <!-- Header Section  -->  */
+    #head {
+        padding: 2rem 0 3rem;
+    }
+
+    /* Nav Section  */
+    #head .nav {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #head .nav .nav-name,
+    #head .nav .nav-list {
+        width: 100%;
+    }
+
+    #head .nav .nav-name {
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    #head .nav .nav-name img {
+        max-width: 2rem;
+    }
+
+    #head .nav .nav-name .nav-title {
+        font-size: 1.8rem;
+    }
+
+    #head .nav .nav-list ul {
+        justify-content: space-evenly;
+    }
+
+    #head .nav .nav-list ul>li a {
+        font-size: 1rem;
+    }
+
+    /* Banner Section  */
+#head .banner {
+    max-width: 60rem;
+    height: 31.25rem;
+    margin: 2rem auto 0;
+}
+
+#head .banner .banner-title {
+    font-size: 2.5rem;
+}
+#head .banner .banner-input {
+    gap: 1rem;
+    padding: 0.8rem;
+}
+#head .banner .banner-input .input-container input[type="text"] {
+    padding: 0.8rem;
+    max-width: 8rem;
+}
+#head .banner .banner-input .input-container #input-icon {
+    bottom: 33%;
+    right: 9%;
+    font-size: 1rem;
+}
+
+/* <!-- Main Section  -->  */
+#main {
+    padding-bottom: 3rem;
+}
+
+/* Our Popular Tours  */
+#main #popular-tours .popular-tours-container {
+    flex-direction: column-reverse;
+    gap: 2.30rem;
+}
+#main #popular-tours .popular-tours-container .popular-tours-content ul li {
+    margin-bottom: 1rem;
+}
+
+/* Choose Your Destination */
+#your-destination {
+    margin-top: 3rem;
+}
+
+#your-destination .your-destination-container .your-destination-content {
+    margin-bottom: 2rem;
+}
+#your-destination .your-destination-container .your-destination-places {
+    gap: 1rem;
+}
+#your-destination .your-destination-container .your-destination-places .first-row-places {
+    gap: 1rem;
+}
+#your-destination .your-destination-container .your-destination-places .second-row-places {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+#your-destination .your-destination-container .your-destination-places .third-row-places {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+/* Why Choose Us */
+#choose-us {
+    margin-top: 3rem;
+}
+
+#choose-us .choose-us-container .choose-us-content {
+    margin-bottom: 2rem;
+}
+
+#choose-us .choose-us-container .choose-us-card {
+    text-align: center;
+    gap: 1rem;
+}
+/* Deals & Discounts Section  */
+#deals-discounts {
+    margin-top: 3rem;
+}
+#deals-discounts .deals-discounts-container {
+    gap: 1rem;
+}
+#deals-discounts .deals-discounts-container .deals-discount-packages {
+    max-width: 60rem;
+}
+
+#deals-discounts .deals-discounts-container #position-end {
+    align-items: center;
+}
+
+#deals-discounts .deals-discounts-container #position-start {
+    align-items: center;
+}
+
+#deals-discounts .deals-discounts-container .more {
+    margin-top: 1.5rem;
+}
+
+/* <!-- A Simple Perfect Place To Get Lost Section --> */
+#simple-showcase {
+    margin-top: 3rem;
+}
+#simple-showcase .simple-showcase-container {
+    flex-direction: column-reverse;
+    gap:1rem;
+}
+
+#simple-showcase .simple-showcase-container .simple-showcase-content .simple-title {
+    font-size: 2rem;
+    line-height: 3rem;
+    max-width: 24rem;
+}
+#simple-showcase .simple-showcase-container .simple-showcase-content .simple-description {
+    line-height: 1.5rem;
+    max-width: 30rem;
+    margin: 1rem 0;
+}
+#simple-showcase .simple-showcase-container .simple-showcase-content ul{
+    margin-left: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+#simple-showcase .simple-showcase-container .simple-showcase-content ul li {
+    line-height: 1.5rem;
+    max-width: 29rem;
+    padding-bottom: 0.8rem;
+}
+
+/* Client Review (Extra Section) */
+#client-review {
+    margin-top: 3rem;
+}
+
+#client-review .client-review-container .client-review-box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+/* <!-- Newsletter Section  --> */
+#news-letter {
+    margin-top: 3rem;
+}
+
+#news-letter .news-letter-container {
+    flex-direction: column-reverse;
+    gap: 1rem;
+}
+
+/* <!-- Footer Section  -->  */
+#foot {
+    padding: 3rem 0;
+}
+
+}
+
 /* Small Device  */
 @media only screen and (max-width: 600px) {
     :root {
@@ -159,74 +374,84 @@
     #deals-discounts {
         margin-top: 1.5rem;
     }
+
     #deals-discounts .deals-discounts-container {
         gap: 1rem;
     }
+
     #deals-discounts .deals-discounts-container .deals-discount-packages {
         max-width: 20.94rem;
         height: 31.25rem;
         justify-content: end;
     }
+
     #deals-discounts .deals-discounts-container .deals-discount-packages .package-box {
         max-width: 18rem;
         height: 19rem;
         padding: 1rem;
         margin: 0.5rem auto;
     }
+
     .package-box .package-info {
         gap: 1rem;
         margin-bottom: 1rem;
     }
+
     .package-box .package-content .package-title {
         font-size: 1rem;
     }
+
     .package-box .package-content .package-description {
         font-size: 0.7rem;
         line-height: 1rem;
         margin: 0.5rem 0;
     }
+
     .package-box .package-book .package-price {
         font-size: 1rem;
         margin-bottom: 0.5rem;
     }
-    #deals-discounts .deals-discounts-container .more{
-        display: none;
-     }
 
-     /* <!-- A Simple Perfect Place To Get Lost Section --> */
-     #simple-showcase {
+    #deals-discounts .deals-discounts-container .more {
+        display: none;
+    }
+
+    /* <!-- A Simple Perfect Place To Get Lost Section --> */
+    #simple-showcase {
         margin-top: 1.5rem;
     }
+
     #simple-showcase .simple-showcase-container {
         flex-direction: column;
         gap: 1.5rem;
     }
+
     #simple-showcase .simple-showcase-container .simple-showcase-content .simple-title {
         font-size: 1.25rem;
         line-height: 1.875rem;
         max-width: 15.5rem;
     }
+
     #simple-showcase .simple-showcase-container .simple-showcase-content .simple-description {
         line-height: 1.5rem;
         max-width: 20.94rem;
         margin: 1rem 0;
     }
-    #simple-showcase .simple-showcase-container .simple-showcase-content ul{
+
+    #simple-showcase .simple-showcase-container .simple-showcase-content ul {
         margin-left: 1rem;
         margin-bottom: 1.5rem;
     }
+
     #simple-showcase .simple-showcase-container .simple-showcase-content ul li {
         line-height: 1.5rem;
         max-width: 20.94rem;
     }
-    #simple-showcase .simple-showcase-container .simple-showcase-video video{
+
+    #simple-showcase .simple-showcase-container .simple-showcase-video video {
         max-width: 20.94rem;
         height: 12.5rem;
     }
-
-
-
-
 
     /* Client Review (Extra Section) */
     #client-review {
@@ -274,6 +499,7 @@
     #news-letter {
         margin-top: 1.5rem;
     }
+
     #news-letter .news-letter-container {
         flex-direction: column;
         gap: 1rem;
@@ -305,6 +531,7 @@
         max-width: 18rem;
         margin-bottom: 1.125rem;
     }
+
     #news-letter .news-letter-container .news-letter-form .form-input button {
         padding: 0.5rem;
         max-width: 18rem;
@@ -339,22 +566,28 @@
     #foot {
         padding: 1.5rem 0;
     }
+
     #foot .footer-container .footer-up {
         padding-bottom: 1.5rem;
     }
+
     #foot .footer-container .footer-up .brand-name {
         gap: 0.5rem;
     }
+
     #foot .footer-container .footer-up .brand-name img {
         max-width: 1.32rem;
     }
+
     #foot .footer-container .footer-up .brand-name .brand-title {
         font-size: 1.35rem;
     }
-    #foot .footer-container .footer-up .footer-icon{
+
+    #foot .footer-container .footer-up .footer-icon {
         gap: 1rem;
     }
-    #foot .footer-container .footer-up .footer-icon i{
+
+    #foot .footer-container .footer-up .footer-icon i {
         font-size: 1.2rem;
     }
 }
