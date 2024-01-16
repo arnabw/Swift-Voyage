@@ -123,16 +123,19 @@
         font-size: 1.25rem;
     }
 
-/* Why Choose Us */
+    /* Why Choose Us */
     #choose-us {
-       margin-top: 1.5rem;
+        margin-top: 1.5rem;
     }
+
     #choose-us .choose-us-container .choose-us-content {
         margin-bottom: 1rem;
     }
+
     #choose-us .choose-us-container .choose-us-card {
         gap: 1rem;
     }
+
     #choose-us .choose-us-container .choose-us-card .card-content {
         flex-basis: 20.94rem;
         height: 18.1rem;
@@ -150,6 +153,48 @@
     #choose-us .choose-us-container .choose-us-card .card-content .card-description {
         line-height: 1.5rem;
         max-width: 16.94rem;
+    }
+
+    /* Client Review (Extra Section) */
+    #client-review {
+        margin-top: 1.5rem;
+    }
+
+    #client-review .client-review-container .client-review-box {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    #client-review .client-review-container .client-review-box .client-review {
+        padding: 1rem;
+    }
+
+    #client-review .client-review-container .client-review-box .client-review .client-img{
+        padding: 0.3rem;
+    }
+
+    #client-review .client-review-container .client-review-box .client-review .client-img img {
+        max-width: 10rem;
+    }
+
+    #client-review .client-review-container .client-review-box .client-review .client-name {
+        font-size: 1rem;
+        margin-top: 0.3rem;
+    }
+
+    #client-review .client-review-container .client-review-box .client-review .client-remarks {
+        font-size: 0.75rem;
+        margin: 0.3rem 0;
+        max-width: 14rem;
+    }
+
+    #client-review .client-review-container .client-review-box .client-review .review-icon{
+        gap: 0.7rem;
+    }
+
+    #client-review .client-review-container .client-review-box .client-review .review-icon i{
+        font-size: 0.8rem;
     }
 
     /* <!-- Footer Section  -->  */

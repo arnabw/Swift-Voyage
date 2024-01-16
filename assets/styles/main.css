@@ -342,5 +342,72 @@
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* Client Review (Extra Section) */
+#client-review {
+    margin-top: 6.125rem;
+}
+
+#client-review .client-review-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#client-review .client-review-container .client-review-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+#client-review .client-review-container .client-review-box .client-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+#client-review .client-review-container .client-review-box .client-review .client-img{
+    padding: 0.5rem;
+    border: 3px solid #131318;
+    border-radius: 50%;
+}
+
+#client-review .client-review-container .client-review-box .client-review .client-img img {
+    width: 100%;
+    max-width: 12.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#client-review .client-review-container .client-review-box .client-review .client-name {
+    font-size: 1.5rem;
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+#client-review .client-review-container .client-review-box .client-review .client-remarks {
+    font-size: var(--primary-font);
+    font-family: var(--primary-font);
+    font-weight: 400;
+    margin: 0.5rem 0;
+    width: 100%;
+    max-width: 18rem;
+    color: var(--optional-color);
+    text-align: justify;
+}
+#client-review .client-review-container .client-review-box .client-review .review-icon{
+    display: flex;
+    gap: 1rem;
+}
+#client-review .client-review-container .client-review-box .client-review .review-icon i{
+    font-size: 1.2rem;
+    color: #F6BF1B;
+}
 
 /* <!-- Footer Section  -->  */
