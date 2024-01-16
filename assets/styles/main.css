@@ -372,6 +372,7 @@
     max-width: 90rem;
     height: 31.25rem;
     border-radius: 1rem;
+    margin: 0 auto;
 }
 
 #deals-discounts .deals-discounts-container #position-end{
@@ -382,11 +383,6 @@
     background: url('../images/Book-2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    max-width: 90rem;
-    height: 31.25rem;
-    border-radius: 1rem;
-    margin: 0 auto;
 }
 
 #deals-discounts .deals-discounts-container .deals-discount-packages .package-box {
@@ -451,6 +447,12 @@
     font-size: 1.25rem;
     font-weight: 800;
     margin-bottom: 1.5rem;
+}
+
+#deals-discounts .deals-discounts-container .more{
+   display: flex;
+   justify-content: center;
+   margin-top: 3rem;
 }
 
 
